@@ -20,6 +20,7 @@ export function InHerWords() {
           />
         </div>
 
+
         <dl className="divide-y divide-ink/15 border-y border-ink/15">
           {issue.words.questions.map((item) => (
             <div key={item.q} className="py-7">
