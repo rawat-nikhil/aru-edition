@@ -16,7 +16,7 @@ export function EditorsLetter() {
           <EditorialImage
             src={issue.letter.portrait}
             alt={issue.letter.portraitAlt}
-            className="mt-8 aspect-[4/5] w-full max-w-sm"
+            className="mt-8 aspect-4/5 w-full max-w-sm"
             sizes="(min-width: 1024px) 30vw, 80vw"
           />
           <p className="mt-4 font-masthead text-3xl italic">{issue.letter.signed}</p>

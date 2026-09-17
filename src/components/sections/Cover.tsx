@@ -3,7 +3,7 @@ import { issue } from "@/content/issue";
 
 export function Cover() {
   return (
-    <section id="cover" className="relative isolate h-dvh min-h-[640px] overflow-hidden bg-ink text-white">
+    <section id="cover" className="relative isolate h-dvh min-h-160 overflow-hidden bg-ink text-white">
       <EditorialImage
         src={issue.cover.image}
         alt={issue.cover.alt}

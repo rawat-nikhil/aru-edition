@@ -15,7 +15,7 @@ export function InHerWords() {
           <EditorialImage
             src={issue.words.portrait}
             alt={issue.words.portraitAlt}
-            className="mt-8 aspect-[3/4] w-full"
+            className="mt-8 aspect-3/4 w-full"
             sizes="(min-width: 1024px) 38vw, 100vw"
           />
         </div>

@@ -15,7 +15,7 @@ export function LastPage() {
           <EditorialImage
             src={issue.last.image}
             alt={issue.last.imageAlt}
-            className="mt-10 aspect-[4/5] w-full max-w-md"
+            className="mt-10 aspect-4/5 w-full max-w-md"
             sizes="(min-width: 1024px) 40vw, 100vw"
           />
         </div>

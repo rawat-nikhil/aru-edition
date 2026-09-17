@@ -60,7 +60,7 @@ export function MagazinePage({
       id={id}
       className={`scroll-mt-14 border-b border-ink/10 px-4 py-16 md:px-10 md:py-24 lg:px-16 ${className ?? ""}`}
     >
-      <div className="mx-auto max-w-[1400px]">{children}</div>
+      <div className="mx-auto max-w-350">{children}</div>
     </section>
   );
 }

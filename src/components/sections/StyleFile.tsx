@@ -21,7 +21,7 @@ export function StyleFile() {
             <EditorialImage
               src={look.image}
               alt={`${look.title} — replace with Arushi`}
-              className={index === 0 ? "aspect-[4/5] w-full lg:aspect-[3/4]" : "aspect-[3/4] w-full"}
+              className={index === 0 ? "aspect-4/5 w-full lg:aspect-3/4" : "aspect-3/4 w-full"}
               sizes="(min-width: 1024px) 30vw, 50vw"
             />
             <div className="mt-3 flex items-baseline justify-between gap-3 border-t border-ink/20 pt-3">

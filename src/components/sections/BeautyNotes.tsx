@@ -17,7 +17,7 @@ export function BeautyNotes() {
           <EditorialImage
             src={issue.beauty.image}
             alt={issue.beauty.imageAlt}
-            className="mt-8 aspect-[4/5] w-full"
+            className="mt-8 aspect-4/5 w-full"
             sizes="(min-width: 1024px) 45vw, 100vw"
           />
         </div>

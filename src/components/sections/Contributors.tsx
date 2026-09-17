@@ -19,7 +19,7 @@ export function Contributors() {
             <EditorialImage
               src={person.image}
               alt={person.name}
-              className="aspect-[4/5] w-full"
+              className="aspect-4/5 w-full"
               sizes="(min-width: 1024px) 22vw, 50vw"
             />
             <p className="mt-4 font-sans text-[10px] tracking-[0.3em] text-aru-red uppercase">

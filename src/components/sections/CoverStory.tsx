@@ -20,7 +20,7 @@ export function CoverStory() {
       <EditorialImage
         src={issue.story.hero}
         alt={issue.story.heroAlt}
-        className="mt-10 aspect-[16/9] w-full md:aspect-[21/9]"
+        className="mt-10 aspect-vedio w-full md:aspect-21/9"
         sizes="100vw"
       />
 
@@ -40,7 +40,7 @@ export function CoverStory() {
           <EditorialImage
             src={issue.story.second}
             alt={issue.story.secondAlt}
-            className="aspect-[3/4] w-full"
+            className="aspect-3/4 w-full"
             sizes="(min-width: 1024px) 32vw, 100vw"
           />
           <figcaption className="mt-3 font-sans text-[10px] tracking-[0.22em] text-ink/55 uppercase">

@@ -3,7 +3,7 @@ import { issue } from "@/content/issue";
 export function MastheadNav() {
   return (
     <nav className="sticky top-0 z-50 border-b border-ink/15 bg-paper/95 backdrop-blur-md">
-      <div className="nav-scroll mx-auto flex max-w-[1400px] items-center gap-5 overflow-x-auto px-4 py-3 md:px-8">
+      <div className="nav-scroll mx-auto flex max-w-350 items-center gap-5 overflow-x-auto px-4 py-3 md:px-8">
         <a
           href="#cover"
           className="shrink-0 font-masthead text-[1.65rem] leading-none tracking-tight text-ink"

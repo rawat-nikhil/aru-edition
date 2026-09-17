@@ -28,11 +28,11 @@ export function Portfolio() {
 
       <div className="mt-12 grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-4">
         {issue.portfolio.frames.map((frame, index) => (
-          <figure key={frame.image} className={spans[index] ?? "min-h-[16rem]"}>
+          <figure key={frame.image} className={spans[index] ?? "min-h-64"}>
             <EditorialImage
               src={frame.image}
               alt={frame.caption}
-              className="h-full min-h-[16rem] w-full"
+              className="h-full min-h-64 w-full"
               sizes="(min-width: 768px) 25vw, 100vw"
             />
             <figcaption className="mt-2 font-sans text-[10px] tracking-[0.2em] text-ink/55 uppercase">

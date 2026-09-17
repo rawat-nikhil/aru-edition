@@ -50,7 +50,7 @@ export function Contents() {
           <EditorialImage
             src={issue.contents.image}
             alt={issue.contents.alt}
-            className="aspect-[3/4] w-full"
+            className="aspect-3/4 w-full"
             sizes="(min-width: 1024px) 40vw, 100vw"
           />
           <figcaption className="mt-3 flex justify-between font-sans text-[10px] tracking-[0.22em] text-ink/55 uppercase">
