@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f6f1ea;
+  --foreground: #111111;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-paper: #f6f1ea;
+  --color-ink: #111111;
+  --color-aru-red: #c41e3a;
+  --font-masthead: var(--font-playfair);
+  --font-serif: var(--font-cormorant);
+  --font-sans: var(--font-jost);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 3.4rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-cormorant), Georgia, "Times New Roman", serif;
+}
+
+::selection {
+  background: #c41e3a;
+  color: #f6f1ea;
+}
+
+.drop-cap::first-letter {
+  float: left;
+  font-family: var(--font-playfair), Georgia, serif;
+  font-size: 5.6rem;
+  line-height: 0.72;
+  padding-right: 0.1em;
+  padding-top: 0.1em;
+  font-weight: 500;
+}
+
+.nav-scroll {
+  scrollbar-width: none;
+}
+
+.nav-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.columns-article {
+  column-gap: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .columns-article {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1280px) {
+  .columns-article {
+    column-count: 3;
+  }
+}
+
+.columns-article p {
+  break-inside: avoid;
+}
+
+.columns-article p + p {
+  margin-top: 1.25rem;
+}
