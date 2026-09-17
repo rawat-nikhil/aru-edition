@@ -20,7 +20,7 @@ export const issue = {
     { href: "#last", label: "The Last Page", page: "056" },
   ],
   cover: {
-    image: "/source/three.jpg",
+    image: "/source/three.JPG",
     alt: "Cover portrait",
     kicker: "The woman of the century",
     linesLeft: [
@@ -173,7 +173,7 @@ export const issue = {
   beauty: {
     kicker: "Beauty Notes",
     headline: "The look, decoded",
-    image: "/source/sixteen.jpg",
+    image: "/source/six.jpg",
     imageAlt: "Beauty still — replace with Arushi",
     intro:
       "No contour as performance. No trend as costume. The brief was simple: she should look like herself, on her best paper.",
@@ -210,7 +210,7 @@ export const issue = {
     headline: "Eight frames",
     dek: "An editorial sitting in eight quiet moments",
     frames: [
-      { image: "/source/fifteen.jpg", caption: "01  Morning light, unstyled" },
+      { image: "/source/fifteen.JPG", caption: "01  Morning light, unstyled" },
       { image: "/source/seven.jpg", caption: "02  Profile, three-quarter" },
       { image: "/source/six.jpg", caption: "03  The pause between frames" },
       { image: "/source/eleven.jpg", caption: "04  Beauty, close" },
