@@ -20,7 +20,7 @@ export const issue = {
     { href: "#last", label: "The Last Page", page: "056" },
   ],
   cover: {
-    image: "/source/three.JPG",
+    image: "/source/cover.jpg",
     alt: "Cover portrait",
     kicker: "The woman of the century",
     linesLeft: [
@@ -33,21 +33,37 @@ export const issue = {
     ],
   },
   contents: {
-    image: "/source/five.jpg",
+    image: "/source/contents.jpg",
     alt: "Contents portrait",
     departments: [
       {
         name: "Front of Book",
         entries: [
-          { page: "006", title: "Contributors", dek: "The minds behind the issue" },
-          { page: "008", title: "Letter from the Editor", dek: "Why she is the cover" },
+          {
+            page: "006",
+            title: "Contributors",
+            dek: "The minds behind the issue",
+          },
+          {
+            page: "008",
+            title: "Letter from the Editor",
+            dek: "Why she is the cover",
+          },
         ],
       },
       {
         name: "Fashion",
         entries: [
-          { page: "012", title: "The Hour Belongs to Her", dek: "Cover story: Arushi Negi" },
-          { page: "024", title: "The Style File", dek: "Six looks. One stance." },
+          {
+            page: "012",
+            title: "The Hour Belongs to Her",
+            dek: "Cover story: Arushi Negi",
+          },
+          {
+            page: "024",
+            title: "The Style File",
+            dek: "Six looks. One stance.",
+          },
         ],
       },
       {
@@ -59,9 +75,21 @@ export const issue = {
       {
         name: "Culture",
         entries: [
-          { page: "038", title: "Portfolio", dek: "An editorial in eight frames" },
-          { page: "048", title: "In Her Words", dek: "A conversation with the cover star" },
-          { page: "056", title: "The Last Page", dek: "Horoscope, colophon, encore" },
+          {
+            page: "038",
+            title: "Portfolio",
+            dek: "An editorial in eight frames",
+          },
+          {
+            page: "048",
+            title: "In Her Words",
+            dek: "A conversation with the cover star",
+          },
+          {
+            page: "056",
+            title: "The Last Page",
+            dek: "Horoscope, colophon, encore",
+          },
         ],
       },
     ],
@@ -71,31 +99,31 @@ export const issue = {
       role: "Editor in Chief",
       name: "Camille Laurent",
       bio: "Sets the tone of the issue and the temperature of the room.",
-      image: "/editorial/contrib-01.jpg",
-    },
-    {
-      role: "Fashion Editor",
-      name: "Isolde March",
-      bio: "Casts the clothes. Trusts the woman wearing them.",
-      image: "/editorial/contrib-02.jpg",
-    },
-    {
-      role: "Beauty Director",
-      name: "Noor El-Amin",
-      bio: "Believes the best makeup is a well-kept secret.",
-      image: "/editorial/contrib-03.jpg",
+      image: "/source/contributor-editor.png",
     },
     {
       role: "Photographer",
       name: "Elena Voss",
       bio: "Shoots as if the light were a collaborator, not a tool.",
-      image: "/editorial/contrib-04.jpg",
+      image: "/source/contributor-photographer.png",
+    },
+    {
+      role: "Fashion Editor",
+      name: "Isolde March",
+      bio: "Casts the clothes. Trusts the woman wearing them.",
+      image: "/source/contributor-fashion.png",
+    },
+    {
+      role: "Beauty Director",
+      name: "Noor El-Amin",
+      bio: "Believes the best makeup is a well-kept secret.",
+      image: "/source/contributor-beauty.png",
     },
   ],
   letter: {
     kicker: "Letter from the Editor",
     headline: "She is the issue.",
-    portrait: "/editorial/editor.jpg",
+    portrait: "/source/editor-letter.jpg",
     portraitAlt: "Editor portrait — replace as you like",
     signed: "C.L.",
     title: "Editor in Chief",
@@ -112,9 +140,9 @@ export const issue = {
     dek: "Arushi Negi takes the cover of The Aru Edition — a study in presence, proportion, and the quiet authority of someone who has always known how to stand in the light.",
     byline: "By Camille Laurent",
     photography: "Photographs by Elena Voss",
-    hero: "/editorial/story-hero.jpg",
+    hero: "/source/cover-story-hero.jpg",
     heroAlt: "Cover story hero — replace with Arushi",
-    second: "/editorial/story-02.jpg",
+    second: "/source/cover-story-second.jpg",
     secondAlt: "Cover story second frame — replace with Arushi",
     pullQuote: "She doesn’t enter a room. The room rearranges.",
     paragraphs: [
@@ -133,47 +161,50 @@ export const issue = {
     dek: "A working wardrobe for a woman who treats clothes as punctuation — precise, rare, never in a rush.",
     looks: [
       {
-        image: "/editorial/look-01.jpg",
+        image: "/source/style-coat.jpg",
         number: "01",
         title: "The Coat",
-        credit: "Ivory wool, a shoulder that means it. Worn as architecture, not apology.",
+        credit:
+          "Ivory wool, a shoulder that means it. Worn as architecture, not apology.",
       },
       {
-        image: "/editorial/look-02.jpg",
+        image: "/source/cover.jpg",
         number: "02",
         title: "The Dress",
         credit: "A floral that refuses to be pretty. Length as a form of wit.",
       },
       {
-        image: "/editorial/look-03.jpg",
+        image: "/source/style-street.jpg",
         number: "03",
         title: "The Street",
-        credit: "Tailoring after hours. Black, white, and the city as backdrop.",
+        credit:
+          "Tailoring after hours. Black, white, and the city as backdrop.",
       },
       {
-        image: "/editorial/look-04.jpg",
+        image: "/source/style-evening.jpg",
         number: "04",
         title: "The Evening",
         credit: "A column of black. No necklace. The face does the jewellery.",
       },
       {
-        image: "/editorial/look-05.jpg",
+        image: "/source/style-light.jpg",
         number: "05",
         title: "The Light",
         credit: "Pale knit, open air. Proof that ease can be edited.",
       },
       {
-        image: "/editorial/look-06.jpg",
+        image: "/source/style-uniform.jpg",
         number: "06",
         title: "The Uniform",
-        credit: "All black, considered. The look you reach for when the day is the event.",
+        credit:
+          "All black, considered. The look you reach for when the day is the event.",
       },
     ],
   },
   beauty: {
     kicker: "Beauty Notes",
     headline: "The look, decoded",
-    image: "/source/six.jpg",
+    image: "/source/beauty-notes.png",
     imageAlt: "Beauty still — replace with Arushi",
     intro:
       "No contour as performance. No trend as costume. The brief was simple: she should look like herself, on her best paper.",
@@ -210,21 +241,27 @@ export const issue = {
     headline: "Eight frames",
     dek: "An editorial sitting in eight quiet moments",
     frames: [
-      { image: "/source/fifteen.JPG", caption: "01  Morning light, unstyled" },
-      { image: "/source/seven.jpg", caption: "02  Profile, three-quarter" },
-      { image: "/source/six.jpg", caption: "03  The pause between frames" },
-      { image: "/source/eleven.jpg", caption: "04  Beauty, close" },
-      { image: "/source/eight.jpg", caption: "05  Hair, weather, nothing else" },
-      { image: "/source/thirteen.jpg", caption: "06  The cover, before the type" },
-      { image: "/source/fourteen.jpg", caption: "07  Motion, mid-stride" },
-      { image: "/source/twelve.jpg", caption: "08  After the sitting" },
+      { image: "/source/portfolio-morning.jpg", caption: "01  Morning light, unstyled" },
+      { image: "/source/interview.jpg", caption: "02  Profile, three-quarter" },
+      { image: "/source/last-page.jpg", caption: "03  The pause between frames" },
+      { image: "/source/cover-story-hero.jpg", caption: "04  Beauty, close" },
+      {
+        image: "/source/portfolio-hair.jpg",
+        caption: "05  Hair, weather, nothing else",
+      },
+      {
+        image: "/source/portfolio-pre-cover.jpg",
+        caption: "06  The cover, before the type",
+      },
+      { image: "/source/portfolio-stride.jpg", caption: "07  Motion, mid-stride" },
+      { image: "/source/portfolio-after.jpg", caption: "08  After the sitting" },
     ],
   },
   words: {
     kicker: "In Her Words",
     headline: "Twenty-four hours with Arushi Negi",
     dek: "A conversation conducted in the language of clothes, rooms, and the last beautiful thing she noticed.",
-    portrait: "/source/seven.jpg",
+    portrait: "/source/interview.jpg",
     portraitAlt: "Interview portrait — replace with Arushi",
     questions: [
       {
@@ -256,7 +293,7 @@ export const issue = {
   last: {
     kicker: "The Last Page",
     headline: "The birthday horoscope",
-    image: "/source/six.jpg",
+    image: "/source/last-page.jpg",
     imageAlt: "Closing portrait — replace with Arushi",
     horoscope:
       "A year of rooms that rearrange themselves around you. Correspondence arrives on heavy paper. A coat you have not met yet is already waiting. Do not rush the sitting — the best frame is the one that asks you to stay. Love, in this house, is issued annually and kept forever.",
