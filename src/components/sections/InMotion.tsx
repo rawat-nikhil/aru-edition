@@ -1,9 +1,9 @@
 import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
-export function BeautyNotes() {
+export function InMotion() {
   return (
-    <MagazinePage id="beauty" className="bg-[#efe8de]">
+    <MagazinePage id="in-motion" className="bg-[#efe8de]">
       <RunningHeader section={issue.beauty.runningHeader} page={issue.beauty.page} />
       <div className="grid items-start gap-12 lg:grid-cols-2">
         <div>

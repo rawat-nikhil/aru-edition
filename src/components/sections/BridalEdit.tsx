@@ -1,9 +1,9 @@
 import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
-export function StyleFile() {
+export function BridalEdit() {
   return (
-    <MagazinePage id="style">
+    <MagazinePage id="bridal-edit">
       <RunningHeader section={issue.style.runningHeader} page={issue.style.page} />
       <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
         <div>

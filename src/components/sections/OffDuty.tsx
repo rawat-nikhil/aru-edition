@@ -1,9 +1,9 @@
 import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
-export function InHerWords() {
+export function OffDuty() {
   return (
-    <MagazinePage id="words" className="bg-[#efe8de]">
+    <MagazinePage id="off-duty" className="bg-[#efe8de]">
       <RunningHeader section={issue.words.runningHeader} page={issue.words.page} />
       <div className="grid items-start gap-12 lg:grid-cols-[0.85fr_1.15fr]">
         <div>

@@ -1,23 +1,23 @@
 import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
-export function Contributors() {
+export function HerManyNames() {
   return (
-    <MagazinePage id="contributors">
+    <MagazinePage id="many-names">
       <RunningHeader
-        section={issue.contributors.runningHeader}
-        page={issue.contributors.page}
+        section={issue.manyNames.runningHeader}
+        page={issue.manyNames.page}
       />
-      <Kicker>{issue.contributors.kicker}</Kicker>
+      <Kicker>{issue.manyNames.kicker}</Kicker>
       <h2 className="mt-3 max-w-3xl font-masthead text-5xl leading-none tracking-tight md:text-7xl">
-        {issue.contributors.headline}
+        {issue.manyNames.headline}
       </h2>
       <p className="mt-4 max-w-xl font-serif text-xl italic text-ink/70">
-        {issue.contributors.dek}
+        {issue.manyNames.dek}
       </p>
 
       <div className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-        {issue.contributors.people.map((person) => (
+        {issue.manyNames.people.map((person) => (
           <article key={person.name} className="border-t border-ink pt-5">
             <EditorialMedia
               src={person.image}

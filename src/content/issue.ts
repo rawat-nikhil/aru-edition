@@ -10,14 +10,14 @@ export const issue = {
   nav: [
     { href: "#cover", label: "Cover", page: "001" },
     { href: "#contents", label: "Contents", page: "004" },
-    { href: "#contributors", label: "Her Many Names", page: "006" },
-    { href: "#letter", label: "Editor’s Letter", page: "008" },
-    { href: "#story", label: "Cover Story", page: "012" },
-    { href: "#style", label: "Signature Style", page: "024" },
-    { href: "#beauty", label: "The Details", page: "032" },
+    { href: "#many-names", label: "Her Many Names", page: "006" },
+    { href: "#editors-letter", label: "Editor’s Letter", page: "008" },
+    { href: "#snow-edit", label: "The Snow Edit", page: "012" },
+    { href: "#bridal-edit", label: "The Bridal Edit", page: "024" },
+    { href: "#in-motion", label: "In Motion", page: "032" },
     { href: "#portfolio", label: "Portfolio", page: "038" },
-    { href: "#words", label: "In Her Words", page: "048" },
-    { href: "#last", label: "The Last Page", page: "056" },
+    { href: "#off-duty", label: "Off Duty", page: "048" },
+    { href: "#last-page", label: "The Last Page", page: "056" },
   ],
   cover: {
     media: "/source/cover.jpg",
@@ -49,7 +49,7 @@ export const issue = {
           {
             page: "006",
             title: "Her Many Names",
-            dek: "Four names. Four unmistakable moods.",
+            dek: "Four names. Every shade of Arushi.",
           },
           {
             page: "008",
@@ -59,27 +59,27 @@ export const issue = {
         ],
       },
       {
-        name: "Fashion",
+        name: "Features",
         entries: [
           {
             page: "012",
-            title: "Grace, on Her Own Terms",
-            dek: "The woman beyond the photographs",
+            title: "Grace Takes a Day Off",
+            dek: "Fearless on the way up, laughing all the way down",
           },
           {
             page: "024",
-            title: "Her Signature Style",
-            dek: "Six looks. One unmistakable point of view.",
+            title: "The Bridal Edit",
+            dek: "One look. Six unforgettable frames.",
           },
         ],
       },
       {
-        name: "Beauty",
+        name: "In Motion",
         entries: [
           {
             page: "032",
-            title: "The Details",
-            dek: "The expressions and details that make her Arushi",
+            title: "A Little Freedom, Caught on Film",
+            dek: "A carefree afternoon unfolding in the valley",
           },
         ],
       },
@@ -93,8 +93,8 @@ export const issue = {
           },
           {
             page: "048",
-            title: "The Arushi Dictionary",
-            dek: "Her habits, moods and unmistakable point of view",
+            title: "Off Duty",
+            dek: "An afternoon, entirely her own",
           },
           {
             page: "056",
@@ -105,7 +105,7 @@ export const issue = {
       },
     ],
   },
-  contributors: {
+  manyNames: {
     runningHeader: "HER MANY NAMES",
     page: "006",
     kicker: "THE ARUSHI DICTIONARY",
@@ -133,7 +133,7 @@ export const issue = {
       {
         role: "The Original",
         name: "Aru",
-        bio: "Simply, unmistakably herself.",
+        bio: "Simply and entirely herself.",
         image: "/source/contributor-beauty.png",
       },
     ],
@@ -151,7 +151,7 @@ export const issue = {
     paragraphs: [
       "Some people deserve more than a birthday card. Arushi deserved an entire edition.",
       "Not because she is always perfectly dressed — although she usually is. Not because she knows exactly what she wants — although she definitely does. This edition exists because no single photograph or paragraph could capture all the versions of her.",
-      "She is a loving daughter, a dependable friend, an effortless dresser and the owner of more nicknames than one person reasonably needs. She can be composed in one moment, completely unpredictable in the next, and somehow remain unmistakably herself through all of it.",
+      "She is a loving daughter, a dependable friend, an effortless dresser and the owner of more nicknames than one person reasonably needs. She can be composed in one moment, completely unpredictable in the next, and somehow remain entirely herself through all of it.",
       "These pages collect the things that make her Arushi: her expressions, her style, her relationships, her many moods and the memories created along the way. Happy twenty-ninth, Aru.",
     ],
   },
@@ -180,13 +180,13 @@ export const issue = {
       "She moves easily between different versions of herself. Traditional when the occasion calls for it, contemporary when she feels like it, playful around the people she trusts and fiercely certain once she has made up her mind.",
       "The photographs in this edition capture the style, but only the people closest to her know the full picture: the expressions, the unexpected jokes, the strong opinions and the warmth she reserves for her people.",
       "She is a loving daughter who carries her family’s values with her. She is a dependable friend, present when it matters. And she is the person who can turn an ordinary moment into a story that will be repeated for years.",
-      "Her style works for the same reason her personality does: it never feels borrowed. She can wear intricate traditional details, a clean modern silhouette or something completely relaxed and still look unmistakably like herself.",
+      "Her style works for the same reason her personality does: it never feels borrowed. She can wear intricate traditional details, a clean modern silhouette or something completely relaxed and still make it feel entirely her own.",
       "At twenty-nine, she is not becoming someone new. She is growing further into the person she has always been — graceful, expressive, confident and entirely Arushi.",
       "The Aru Edition is not an attempt to define her. It is simply one issue dedicated to everything that makes her impossible to reduce to a single page.",
     ],
   },
   style: {
-    runningHeader: "Style File",
+    runningHeader: "The Bridal Edit",
     page: "024",
     kicker: "THE BRIDAL EDIT",
     headline: "One look. Six unforgettable frames",
@@ -237,7 +237,7 @@ export const issue = {
     ],
   },
   beauty: {
-    runningHeader: "Beauty Notes",
+    runningHeader: "In Motion",
     page: "032",
     kicker: "IN MOTION",
     headline: "A little freedom, caught on film",
@@ -279,7 +279,7 @@ export const issue = {
     page: "038",
     kicker: "Portfolio",
     headline: "Eight frames",
-    dek: "Eight moments. Eight moods. One unmistakable Arushi.",
+    dek: "Eight moments. Eight moods. Each one entirely Arushi.",
     frames: [
       {
         image: "/source/portfolio-morning.jpg",
@@ -313,7 +313,7 @@ export const issue = {
     ],
   },
   words: {
-    runningHeader: "In Her Words",
+    runningHeader: "Off Duty",
     page: "048",
     kicker: "Off Duty",
     headline: "An afternoon, entirely her own",

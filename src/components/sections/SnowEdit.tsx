@@ -1,9 +1,9 @@
 import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
-export function CoverStory() {
+export function SnowEdit() {
   return (
-    <MagazinePage id="story" className="bg-[#efe8de]">
+    <MagazinePage id="snow-edit" className="bg-[#efe8de]">
       <RunningHeader section={issue.story.runningHeader} page={issue.story.page} />
       <Kicker>{issue.story.kicker}</Kicker>
       <h2 className="mt-4 max-w-5xl font-masthead text-5xl leading-[0.92] tracking-tight md:text-7xl lg:text-8xl">

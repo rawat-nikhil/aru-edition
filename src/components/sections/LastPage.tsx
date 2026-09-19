@@ -3,7 +3,7 @@ import { issue } from "@/content/issue";
 
 export function LastPage() {
   return (
-    <MagazinePage id="last" className="border-b-0">
+    <MagazinePage id="last-page" className="border-b-0">
       <RunningHeader section={issue.last.runningHeader} page={issue.last.page} />
       <div className="grid items-start gap-12 lg:grid-cols-2">
         <div>

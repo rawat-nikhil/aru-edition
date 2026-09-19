@@ -5,7 +5,7 @@ export function EditorsLetter() {
   const [first, ...rest] = issue.letter.paragraphs;
 
   return (
-    <MagazinePage id="letter">
+    <MagazinePage id="editors-letter">
       <RunningHeader section={issue.letter.runningHeader} page={issue.letter.page} />
       <div className="grid items-start gap-12 lg:grid-cols-[0.8fr_1.2fr]">
         <div>

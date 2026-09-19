@@ -1,14 +1,14 @@
 import { MastheadNav } from "@/components/MastheadNav";
-import { BeautyNotes } from "@/components/sections/BeautyNotes";
+import { BridalEdit } from "@/components/sections/BridalEdit";
 import { Contents } from "@/components/sections/Contents";
-import { Contributors } from "@/components/sections/Contributors";
 import { Cover } from "@/components/sections/Cover";
-import { CoverStory } from "@/components/sections/CoverStory";
 import { EditorsLetter } from "@/components/sections/EditorsLetter";
-import { InHerWords } from "@/components/sections/InHerWords";
+import { HerManyNames } from "@/components/sections/HerManyNames";
+import { InMotion } from "@/components/sections/InMotion";
 import { LastPage } from "@/components/sections/LastPage";
+import { OffDuty } from "@/components/sections/OffDuty";
 import { Portfolio } from "@/components/sections/Portfolio";
-import { StyleFile } from "@/components/sections/StyleFile";
+import { SnowEdit } from "@/components/sections/SnowEdit";
 
 export default function Home() {
   return (
@@ -16,13 +16,13 @@ export default function Home() {
       <Cover />
       <MastheadNav />
       <Contents />
-      <Contributors />
+      <HerManyNames />
       <EditorsLetter />
-      <CoverStory />
-      <StyleFile />
-      <BeautyNotes />
+      <SnowEdit />
+      <BridalEdit />
+      <InMotion />
       <Portfolio />
-      <InHerWords />
+      <OffDuty />
       <LastPage />
     </div>
   );
