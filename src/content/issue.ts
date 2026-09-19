@@ -156,11 +156,11 @@ export const issue = {
     ],
   },
   story: {
-    runningHeader: "Cover Story",
+    runningHeader: "THE SNOW EDIT",
     page: "012",
-    kicker: "Cover Story",
-    headline: "Grace, on her own terms",
-    dek: "Arushi Negi at twenty-nine — confident, expressive and entirely herself.",
+    kicker: "THE SNOW EDIT",
+    headline: "Grace Takes a Day Off",
+    dek: "Fearless on the way up, laughing all the way down",
     byline: "By Nikhil Rawat",
     photography: "Photographs from the archives",
     hero: {
