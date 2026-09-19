@@ -21,7 +21,7 @@ export function HerManyNames() {
           <article key={person.name} className="border-t border-ink pt-5">
             <EditorialMedia
               src={person.image}
-              alt={person.name}
+              alt={`Arushi Negi, known as ${person.name}`}
               className="aspect-4/5 w-full"
               sizes="(min-width: 1024px) 22vw, 50vw"
             />

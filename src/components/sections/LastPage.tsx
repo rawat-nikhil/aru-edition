@@ -1,5 +1,7 @@
+import Link from "next/link";
 import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
+import { site } from "@/lib/site";
 
 export function LastPage() {
   return (
@@ -36,7 +38,11 @@ export function LastPage() {
               <p className="font-sans text-[10px] tracking-[0.28em] uppercase text-ink/55">
                 {issue.last.colophon.label}
               </p>
-              <p className="mt-2 font-masthead text-2xl">{issue.last.colophon.star}</p>
+              <p className="mt-2 font-masthead text-2xl">
+                <Link href={site.profilePath} className="transition-colors hover:text-aru-red">
+                  {issue.last.colophon.star}
+                </Link>
+              </p>
               <p className="mt-6 font-masthead text-3xl italic">{issue.last.colophon.closing}</p>
             </div>
           </div>

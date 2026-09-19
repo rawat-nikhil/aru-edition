@@ -31,7 +31,7 @@ export function Portfolio() {
           <figure key={frame.image} className={spans[index] ?? "min-h-64"}>
             <EditorialMedia
               src={frame.image}
-              alt={frame.caption}
+              alt={`Arushi Negi, ${frame.caption}`}
               className="h-full min-h-64 w-full"
               sizes="(min-width: 768px) 25vw, 100vw"
             />

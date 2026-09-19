@@ -1,5 +1,7 @@
+import Link from "next/link";
 import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
+import { site } from "@/lib/site";
 
 export function Contents() {
   return (
@@ -55,8 +57,12 @@ export function Contents() {
             sizes="(min-width: 1024px) 40vw, 100vw"
           />
           <figcaption className="mt-3 flex justify-between font-sans text-[10px] tracking-[0.22em] text-ink/55 uppercase">
-            <span>{issue.contents.mediaCaption}</span>
-            <span>{issue.star}</span>
+            <Link href={site.profilePath} className="transition-colors hover:text-aru-red">
+              {issue.contents.mediaCaption}
+            </Link>
+            <Link href={site.profilePath} className="transition-colors hover:text-aru-red">
+              {issue.star}
+            </Link>
           </figcaption>
         </figure>
       </div>

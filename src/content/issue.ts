@@ -22,8 +22,8 @@ export const issue = {
   cover: {
     media: "/source/cover.jpg",
     mediaType: "image",
-    mediaAlt: "Cover portrait",
-    kicker: "Twenty-nine, on her own terms",
+    mediaAlt: "Arushi Negi, cover portrait for The Aru Edition",
+    kicker: "The Arushi Negi birthday issue",
     linesLeft: [
       { kicker: "Exclusive", text: "Arushi Negi takes the cover" },
       { kicker: "Personality", text: "The many names of Arushi" },
@@ -41,7 +41,7 @@ export const issue = {
     mediaCaption: "Cover star",
     media: "/source/contents.jpg",
     mediaType: "image",
-    mediaAlt: "Contents portrait",
+    mediaAlt: "Arushi Negi, contents portrait for The Aru Edition",
     departments: [
       {
         name: "Front of Book",
@@ -145,11 +145,11 @@ export const issue = {
     headline: "She is the issue.",
     media: "/source/editor-letter.jpg",
     mediaType: "image",
-    mediaAlt: "Editor portrait — replace as you like",
+    mediaAlt: "Arushi Negi, editor's letter portrait for The Aru Edition",
     signed: "Nikhil",
     title: "Editor in Chief, whether qualified or not",
     paragraphs: [
-      "Some people deserve more than a birthday card. Arushi deserved an entire edition.",
+      "Some people deserve more than a birthday card. Arushi Negi deserved an entire edition.",
       "Not because she is always perfectly dressed — although she usually is. Not because she knows exactly what she wants — although she definitely does. This edition exists because no single photograph or paragraph could capture all the versions of her.",
       "She is a loving daughter, a dependable friend, an effortless dresser and the owner of more nicknames than one person reasonably needs. She can be composed in one moment, completely unpredictable in the next, and somehow remain entirely herself through all of it.",
       "These pages collect the things that make her Arushi: her expressions, her style, her relationships, her many moods and the memories created along the way. Happy twenty-ninth, Aru.",
@@ -166,12 +166,12 @@ export const issue = {
     hero: {
       media: "/source/cover-story-hero.mp4",
       mediaType: "video",
-      mediaAlt: "Cover story hero — replace with Arushi",
+      mediaAlt: "Arushi Negi in the snow, cover story for The Aru Edition",
     },
     second: {
       media: "/source/last-page.jpg",
       mediaType: "image",
-      mediaAlt: "Cover story second frame — replace with Arushi",
+      mediaAlt: "Arushi Negi, second frame from The Snow Edit",
     },
     pullQuote:
       "She has never needed to be the loudest person in the room to be noticed.",
@@ -243,7 +243,7 @@ export const issue = {
     headline: "A little freedom, caught on film",
     media: "/source/beauty-notes.mp4",
     mediaType: "video",
-    mediaAlt: "Beauty still — replace with Arushi",
+    mediaAlt: "Arushi Negi in motion, filmed in the valley",
     intro:
       "No posing, no perfect frame—just Arushi enjoying the valley and letting the moment unfold",
     notes: [
@@ -320,7 +320,7 @@ export const issue = {
     dek: "A quiet table, olive tones and the effortless confidence of someone enjoying the moment",
     media: "/source/interview.jpg",
     mediaType: "image",
-    mediaAlt: "Interview portrait — replace with Arushi",
+    mediaAlt: "Arushi Negi off duty, café portrait for The Aru Edition",
     questions: [
       {
         q: "The Setting",
@@ -355,7 +355,7 @@ export const issue = {
     headline: "Chapter 29",
     media: "/source/last-page.mp4",
     mediaType: "video",
-    mediaAlt: "Closing portrait — replace with Arushi",
+    mediaAlt: "Arushi Negi, closing portrait for The Aru Edition",
     horoscope:
       "More places to visit. More photographs to take. More names for Nikhil to invent. More stories worth remembering. This edition ends here. Her story, fortunately, does not.",
     colophon: {

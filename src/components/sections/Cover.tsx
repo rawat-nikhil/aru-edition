@@ -24,14 +24,14 @@ export function Cover() {
           </span>
         </header>
 
-        <div className="pointer-events-none select-none text-center flex flex-col gap-8">
-          <h1 className="font-masthead text-[32vw] leading-[0.72] font-medium tracking-[-0.07em] sm:text-[22vw] lg:text-[18vw]">
+        <h1 className="pointer-events-none flex select-none flex-col gap-8 text-center">
+          <span className="font-masthead text-[32vw] leading-[0.72] font-medium tracking-[-0.07em] sm:text-[22vw] lg:text-[18vw]">
             {issue.masthead}
-          </h1>
-          <p className="mt-1 font-sans text-[10px] tracking-[0.55em] uppercase sm:text-xs">
+          </span>
+          <span className="mt-1 font-sans text-[10px] tracking-[0.55em] uppercase sm:text-xs">
             {issue.title}
-          </p>
-        </div>
+          </span>
+        </h1>
 
         <div className="grid items-end gap-8 md:grid-cols-3">
           <div className="space-y-5">

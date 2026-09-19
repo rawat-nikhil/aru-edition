@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Jost, Playfair_Display } from "next/font/google";
+import { createPageMetadata, site, siteUrl } from "@/lib/site";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -25,9 +26,20 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "The Aru Edition · Arushi Negi",
-  description:
-    "The Birthday Issue — Arushi Negi, cover star of The Aru Edition.",
+  metadataBase: new URL(siteUrl),
+  ...createPageMetadata({
+    title: site.title.default,
+    description: site.description.default,
+    path: "/",
+  }),
+  title: {
+    default: site.title.default,
+    template: site.title.template,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

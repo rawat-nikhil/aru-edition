@@ -20,7 +20,7 @@ export function BridalEdit() {
           <article key={look.number} className={index === 0 ? "sm:col-span-2 lg:col-span-1" : ""}>
             <EditorialMedia
               src={look.image}
-              alt={`${look.title} — replace with Arushi`}
+              alt={`Arushi Negi, ${look.title} from The Bridal Edit`}
               className={index === 0 ? "aspect-4/5 w-full lg:aspect-3/4" : "aspect-3/4 w-full"}
               sizes="(min-width: 1024px) 30vw, 50vw"
             />
