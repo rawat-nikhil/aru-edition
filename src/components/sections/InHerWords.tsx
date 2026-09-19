@@ -1,4 +1,4 @@
-import { EditorialImage, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
+import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
 export function InHerWords() {
@@ -12,9 +12,10 @@ export function InHerWords() {
             {issue.words.headline}
           </h2>
           <p className="mt-5 font-serif text-xl italic text-ink/70">{issue.words.dek}</p>
-          <EditorialImage
-            src={issue.words.portrait}
-            alt={issue.words.portraitAlt}
+          <EditorialMedia
+            src={issue.words.media}
+            alt={issue.words.mediaAlt}
+            mediaType={issue.words.mediaType}
             className="mt-8 aspect-3/4 w-full"
             sizes="(min-width: 1024px) 38vw, 100vw"
           />

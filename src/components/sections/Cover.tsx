@@ -1,14 +1,15 @@
-import { Barcode, EditorialImage } from "@/components/magazine";
+import { Barcode, EditorialMedia } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
 export function Cover() {
   return (
     <section id="cover" className="relative isolate h-dvh min-h-160 overflow-hidden bg-ink text-white">
-      <EditorialImage
-        src={issue.cover.image}
-        alt={issue.cover.alt}
+      <EditorialMedia
+        src={issue.cover.media}
+        alt={issue.cover.mediaAlt}
+        mediaType={issue.cover.mediaType}
         className="absolute inset-0 z-0 h-full w-full"
-        imageClassName="object-[center_18%]"
+        mediaClassName="object-[center_18%]"
         sizes="100vw"
         priority
       />

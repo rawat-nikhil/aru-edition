@@ -1,4 +1,4 @@
-import { EditorialImage, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
+import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
 export function Contents() {
@@ -47,9 +47,10 @@ export function Contents() {
         </div>
 
         <figure>
-          <EditorialImage
-            src={issue.contents.image}
-            alt={issue.contents.alt}
+          <EditorialMedia
+            src={issue.contents.media}
+            alt={issue.contents.mediaAlt}
+            mediaType={issue.contents.mediaType}
             className="aspect-3/4 w-full"
             sizes="(min-width: 1024px) 40vw, 100vw"
           />

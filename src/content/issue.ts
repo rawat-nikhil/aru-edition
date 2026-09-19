@@ -20,8 +20,9 @@ export const issue = {
     { href: "#last", label: "The Last Page", page: "056" },
   ],
   cover: {
-    image: "/source/cover.jpg",
-    alt: "Cover portrait",
+    media: "/source/cover.jpg",
+    mediaType: "image",
+    mediaAlt: "Cover portrait",
     kicker: "Twenty-nine, on her own terms",
     linesLeft: [
       { kicker: "Exclusive", text: "Arushi Negi takes the cover" },
@@ -33,8 +34,9 @@ export const issue = {
     ],
   },
   contents: {
-    image: "/source/contents.jpg",
-    alt: "Contents portrait",
+    media: "/source/contents.jpg",
+    mediaType: "image",
+    mediaAlt: "Contents portrait",
     departments: [
       {
         name: "Front of Book",
@@ -127,8 +129,9 @@ export const issue = {
   letter: {
     kicker: "Letter from the Editor",
     headline: "She is the issue.",
-    portrait: "/source/editor-letter.jpg",
-    portraitAlt: "Editor portrait — replace as you like",
+    media: "/source/editor-letter.jpg",
+    mediaType: "image",
+    mediaAlt: "Editor portrait — replace as you like",
     signed: "Nikhil",
     title: "Editor in Chief, whether qualified or not",
     paragraphs: [
@@ -144,10 +147,16 @@ export const issue = {
     dek: "Arushi Negi at twenty-nine — confident, expressive and entirely herself.",
     byline: "By Nikhil Rawat",
     photography: "Photographs from the archives",
-    hero: "/source/cover-story-hero.jpg",
-    heroAlt: "Cover story hero — replace with Arushi",
-    second: "/source/cover-story-second.jpg",
-    secondAlt: "Cover story second frame — replace with Arushi",
+    hero: {
+      media: "/source/cover-story-hero.mp4",
+      mediaType: "video",
+      mediaAlt: "Cover story hero — replace with Arushi",
+    },
+    second: {
+      media: "/source/last-page.jpg",
+      mediaType: "image",
+      mediaAlt: "Cover story second frame — replace with Arushi",
+    },
     pullQuote:
       "She has never needed to be the loudest person in the room to be noticed.",
     paragraphs: [
@@ -207,37 +216,38 @@ export const issue = {
     ],
   },
   beauty: {
-    kicker: "The Details",
-    headline: "The things a photograph almost captures",
-    image: "/source/beauty-notes.png",
-    imageAlt: "Beauty still — replace with Arushi",
+    kicker: "IN MOTION",
+    headline: "A little freedom, caught on film",
+    media: "/source/beauty-notes.mp4",
+    mediaType: "video",
+    mediaAlt: "Beauty still — replace with Arushi",
     intro:
-      "The expressions, gestures and little details that make every photograph unmistakably Arushi.",
+      "No posing, no perfect frame—just Arushi enjoying the valley and letting the moment unfold",
     notes: [
       {
         number: "01",
-        title: "The Smile",
-        body: "Usually the first thing noticed — warm, expressive and never quite the same twice.",
+        title: "The Walk",
+        body: "No destination. No hurry",
       },
       {
         number: "02",
-        title: "The Eyes",
-        body: "Expressive enough to finish a sentence before the words arrive.",
+        title: "The Smile",
+        body: "Natural, unplanned and completely hers",
       },
       {
         number: "03",
-        title: "The Hair",
-        body: "Styled, unstyled or confidently doing its own thing.",
+        title: "The Valley",
+        body: "Fresh air and room to wander",
       },
       {
         number: "04",
-        title: "The Laugh",
-        body: "Impossible to ignore, easy to recognise and usually followed by another story.",
+        title: "The Mood",
+        body: "Playful, carefree and fully present",
       },
       {
         number: "05",
-        title: "The Presence",
-        body: "The detail no photograph can fully capture and no one else can duplicate.",
+        title: "The Moment",
+        body: "The kind worth keeping",
       },
     ],
   },
@@ -281,8 +291,9 @@ export const issue = {
     kicker: "The Arushi Dictionary",
     headline: "A few things that are completely her",
     dek: "Her habits, moods and unmistakable point of view — translated by someone who knows them well.",
-    portrait: "/source/interview.jpg",
-    portraitAlt: "Interview portrait — replace with Arushi",
+    media: "/source/interview.jpg",
+    mediaType: "image",
+    mediaAlt: "Interview portrait — replace with Arushi",
     questions: [
       {
         q: "A typical morning?",
@@ -313,8 +324,9 @@ export const issue = {
   last: {
     kicker: "The Last Page",
     headline: "Chapter 29",
-    image: "/source/last-page.jpg",
-    imageAlt: "Closing portrait — replace with Arushi",
+    media: "/source/last-page.mp4",
+    mediaType: "video",
+    mediaAlt: "Closing portrait — replace with Arushi",
     horoscope:
       "More places to visit. More photographs to take. More names for Nikhil to invent. More stories worth remembering. This edition ends here. Her story, fortunately, does not.",
     colophon: {

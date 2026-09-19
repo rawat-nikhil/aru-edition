@@ -1,4 +1,4 @@
-import { EditorialImage, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
+import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
 export function BeautyNotes() {
@@ -14,9 +14,10 @@ export function BeautyNotes() {
           <p className="mt-5 max-w-lg font-serif text-xl italic text-ink/75">
             {issue.beauty.intro}
           </p>
-          <EditorialImage
-            src={issue.beauty.image}
-            alt={issue.beauty.imageAlt}
+          <EditorialMedia
+            src={issue.beauty.media}
+            alt={issue.beauty.mediaAlt}
+            mediaType={issue.beauty.mediaType}
             className="mt-8 aspect-4/5 w-full"
             sizes="(min-width: 1024px) 45vw, 100vw"
           />

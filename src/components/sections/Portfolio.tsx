@@ -1,4 +1,4 @@
-import { EditorialImage, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
+import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
 const spans = [
@@ -29,7 +29,7 @@ export function Portfolio() {
       <div className="mt-12 grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-4">
         {issue.portfolio.frames.map((frame, index) => (
           <figure key={frame.image} className={spans[index] ?? "min-h-64"}>
-            <EditorialImage
+            <EditorialMedia
               src={frame.image}
               alt={frame.caption}
               className="h-full min-h-64 w-full"

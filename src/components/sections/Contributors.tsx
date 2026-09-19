@@ -1,4 +1,4 @@
-import { EditorialImage, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
+import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
 export function Contributors() {
@@ -16,7 +16,7 @@ export function Contributors() {
       <div className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         {issue.contributors.map((person) => (
           <article key={person.name} className="border-t border-ink pt-5">
-            <EditorialImage
+            <EditorialMedia
               src={person.image}
               alt={person.name}
               className="aspect-4/5 w-full"

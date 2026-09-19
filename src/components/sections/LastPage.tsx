@@ -1,4 +1,4 @@
-import { EditorialImage, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
+import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
 export function LastPage() {
@@ -12,9 +12,10 @@ export function LastPage() {
             {issue.last.headline}
           </h2>
           <p className="mt-8 font-serif text-2xl leading-10 text-ink/90">{issue.last.horoscope}</p>
-          <EditorialImage
-            src={issue.last.image}
-            alt={issue.last.imageAlt}
+          <EditorialMedia
+            src={issue.last.media}
+            alt={issue.last.mediaAlt}
+            mediaType={issue.last.mediaType}
             className="mt-10 aspect-4/5 w-full max-w-md"
             sizes="(min-width: 1024px) 40vw, 100vw"
           />

@@ -1,4 +1,4 @@
-import { EditorialImage, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
+import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
 export function CoverStory() {
@@ -17,11 +17,11 @@ export function CoverStory() {
         <span>{issue.story.photography}</span>
       </div>
 
-      <EditorialImage
-        src={issue.story.hero}
-        alt={issue.story.heroAlt}
-        className="mt-10 aspect-vedio w-full md:aspect-21/9"
-        sizes="100vw"
+      <EditorialMedia
+        src={issue.story.hero.media}
+        alt={issue.story.hero.mediaAlt}
+        mediaType={issue.story.hero.mediaType}
+        className="mt-10 aspect-video w-full md:aspect-21/9"
       />
 
       <blockquote className="my-16 border-y border-ink/20 py-10 text-center">
@@ -37,9 +37,10 @@ export function CoverStory() {
           ))}
         </div>
         <figure className="lg:sticky lg:top-24">
-          <EditorialImage
-            src={issue.story.second}
-            alt={issue.story.secondAlt}
+          <EditorialMedia
+            src={issue.story.second.media}
+            alt={issue.story.second.mediaAlt}
+            mediaType={issue.story.second.mediaType}
             className="aspect-3/4 w-full"
             sizes="(min-width: 1024px) 32vw, 100vw"
           />

@@ -1,4 +1,4 @@
-import { EditorialImage, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
+import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
 export function StyleFile() {
@@ -18,7 +18,7 @@ export function StyleFile() {
       <div className="mt-14 grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
         {issue.style.looks.map((look, index) => (
           <article key={look.number} className={index === 0 ? "sm:col-span-2 lg:col-span-1" : ""}>
-            <EditorialImage
+            <EditorialMedia
               src={look.image}
               alt={`${look.title} — replace with Arushi`}
               className={index === 0 ? "aspect-4/5 w-full lg:aspect-3/4" : "aspect-3/4 w-full"}

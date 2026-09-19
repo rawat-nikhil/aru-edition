@@ -1,4 +1,4 @@
-import { EditorialImage, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
+import { EditorialMedia, Kicker, MagazinePage, RunningHeader } from "@/components/magazine";
 import { issue } from "@/content/issue";
 
 export function EditorsLetter() {
@@ -13,9 +13,10 @@ export function EditorsLetter() {
           <h2 className="mt-4 font-masthead text-5xl leading-[0.95] tracking-tight md:text-7xl">
             {issue.letter.headline}
           </h2>
-          <EditorialImage
-            src={issue.letter.portrait}
-            alt={issue.letter.portraitAlt}
+          <EditorialMedia
+            src={issue.letter.media}
+            alt={issue.letter.mediaAlt}
+            mediaType={issue.letter.mediaType}
             className="mt-8 aspect-4/5 w-full max-w-sm"
             sizes="(min-width: 1024px) 30vw, 80vw"
           />

@@ -1,31 +1,48 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
 
-export function EditorialImage({
+export type EditorialMediaType = "image" | "video";
+
+export function EditorialMedia({
   src,
   alt,
+  mediaType = "image",
   className,
-  imageClassName,
+  mediaClassName,
   priority,
   sizes,
 }: {
   src: string;
   alt: string;
+  mediaType?: EditorialMediaType;
   className?: string;
-  imageClassName?: string;
+  mediaClassName?: string;
   priority?: boolean;
   sizes?: string;
 }) {
   return (
     <div className={`relative overflow-hidden bg-neutral-300 ${className ?? ""}`}>
-      <Image
-        src={src}
-        alt={alt}
-        fill
-        className={`object-cover ${imageClassName ?? ""}`}
-        sizes={sizes ?? "(min-width: 1024px) 50vw, 100vw"}
-        priority={priority}
-      />
+      {mediaType === "video" ? (
+        <video
+          src={src}
+          aria-label={alt}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          className={`absolute inset-0 h-full w-full object-cover ${mediaClassName ?? ""}`}
+        />
+      ) : (
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          className={`object-cover ${mediaClassName ?? ""}`}
+          sizes={sizes ?? "(min-width: 1024px) 50vw, 100vw"}
+          priority={priority}
+        />
+      )}
     </div>
   );
 }
