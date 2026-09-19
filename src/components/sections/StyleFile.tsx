@@ -4,7 +4,7 @@ import { issue } from "@/content/issue";
 export function StyleFile() {
   return (
     <MagazinePage id="style">
-      <RunningHeader section="Style File" page="024" />
+      <RunningHeader section={issue.style.runningHeader} page={issue.style.page} />
       <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
         <div>
           <Kicker>{issue.style.kicker}</Kicker>

@@ -4,7 +4,7 @@ import { issue } from "@/content/issue";
 export function LastPage() {
   return (
     <MagazinePage id="last" className="border-b-0">
-      <RunningHeader section="The Last Page" page="056" />
+      <RunningHeader section={issue.last.runningHeader} page={issue.last.page} />
       <div className="grid items-start gap-12 lg:grid-cols-2">
         <div>
           <Kicker>{issue.last.kicker}</Kicker>
@@ -34,7 +34,7 @@ export function LastPage() {
             </p>
             <div className="mt-10 border-t border-ink/20 pt-6">
               <p className="font-sans text-[10px] tracking-[0.28em] uppercase text-ink/55">
-                Colophon
+                {issue.last.colophon.label}
               </p>
               <p className="mt-2 font-masthead text-2xl">{issue.last.colophon.star}</p>
               <p className="mt-6 font-masthead text-3xl italic">{issue.last.colophon.closing}</p>

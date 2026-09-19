@@ -4,12 +4,12 @@ import { issue } from "@/content/issue";
 export function Contents() {
   return (
     <MagazinePage id="contents">
-      <RunningHeader section="Contents" page="004" />
+      <RunningHeader section={issue.contents.runningHeader} page={issue.contents.page} />
       <div className="grid items-start gap-12 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
-          <Kicker>The Birthday Issue</Kicker>
+          <Kicker>{issue.contents.kicker}</Kicker>
           <h2 className="mt-3 font-masthead text-6xl leading-none tracking-tight md:text-8xl">
-            Contents
+            {issue.contents.headline}
           </h2>
           <p className="mt-4 max-w-md font-serif text-xl italic text-ink/70">
             {issue.volume} · {issue.month} {issue.year} · {issue.star}
@@ -55,7 +55,7 @@ export function Contents() {
             sizes="(min-width: 1024px) 40vw, 100vw"
           />
           <figcaption className="mt-3 flex justify-between font-sans text-[10px] tracking-[0.22em] text-ink/55 uppercase">
-            <span>Cover star</span>
+            <span>{issue.contents.mediaCaption}</span>
             <span>{issue.star}</span>
           </figcaption>
         </figure>

@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
+import { issue } from "@/content/issue";
 
 export type EditorialMediaType = "image" | "video";
 
@@ -56,7 +57,7 @@ export function RunningHeader({
 }) {
   return (
     <div className="mb-10 flex items-end justify-between gap-4 border-b border-ink/20 pb-2 font-sans text-[10px] uppercase tracking-[0.28em] text-ink/65">
-      <span>The Aru Edition</span>
+      <span>{issue.title}</span>
       <span className="hidden sm:inline">{section}</span>
       <span>{page}</span>
     </div>

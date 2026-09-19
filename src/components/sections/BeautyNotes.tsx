@@ -4,7 +4,7 @@ import { issue } from "@/content/issue";
 export function BeautyNotes() {
   return (
     <MagazinePage id="beauty" className="bg-[#efe8de]">
-      <RunningHeader section="Beauty Notes" page="032" />
+      <RunningHeader section={issue.beauty.runningHeader} page={issue.beauty.page} />
       <div className="grid items-start gap-12 lg:grid-cols-2">
         <div>
           <Kicker>{issue.beauty.kicker}</Kicker>

@@ -4,7 +4,7 @@ import { issue } from "@/content/issue";
 export function CoverStory() {
   return (
     <MagazinePage id="story" className="bg-[#efe8de]">
-      <RunningHeader section="Cover Story" page="012" />
+      <RunningHeader section={issue.story.runningHeader} page={issue.story.page} />
       <Kicker>{issue.story.kicker}</Kicker>
       <h2 className="mt-4 max-w-5xl font-masthead text-5xl leading-[0.92] tracking-tight md:text-7xl lg:text-8xl">
         {issue.story.headline}

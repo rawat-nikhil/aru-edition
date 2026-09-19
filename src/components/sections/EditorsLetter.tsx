@@ -6,7 +6,7 @@ export function EditorsLetter() {
 
   return (
     <MagazinePage id="letter">
-      <RunningHeader section="Editor’s Letter" page="008" />
+      <RunningHeader section={issue.letter.runningHeader} page={issue.letter.page} />
       <div className="grid items-start gap-12 lg:grid-cols-[0.8fr_1.2fr]">
         <div>
           <Kicker>{issue.letter.kicker}</Kicker>

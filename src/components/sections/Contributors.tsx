@@ -4,17 +4,20 @@ import { issue } from "@/content/issue";
 export function Contributors() {
   return (
     <MagazinePage id="contributors">
-      <RunningHeader section="Contributors" page="006" />
-      <Kicker>The masthead</Kicker>
+      <RunningHeader
+        section={issue.contributors.runningHeader}
+        page={issue.contributors.page}
+      />
+      <Kicker>{issue.contributors.kicker}</Kicker>
       <h2 className="mt-3 max-w-3xl font-masthead text-5xl leading-none tracking-tight md:text-7xl">
-        Contributors
+        {issue.contributors.headline}
       </h2>
       <p className="mt-4 max-w-xl font-serif text-xl italic text-ink/70">
-        The staff of a magazine that exists for one woman, one night, one forever.
+        {issue.contributors.dek}
       </p>
 
       <div className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-        {issue.contributors.map((person) => (
+        {issue.contributors.people.map((person) => (
           <article key={person.name} className="border-t border-ink pt-5">
             <EditorialMedia
               src={person.image}

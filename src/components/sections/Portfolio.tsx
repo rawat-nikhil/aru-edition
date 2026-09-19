@@ -15,7 +15,7 @@ const spans = [
 export function Portfolio() {
   return (
     <MagazinePage id="portfolio">
-      <RunningHeader section="Portfolio" page="038" />
+      <RunningHeader section={issue.portfolio.runningHeader} page={issue.portfolio.page} />
       <div className="flex flex-col justify-between gap-4 md:flex-row md:items-end">
         <div>
           <Kicker>{issue.portfolio.kicker}</Kicker>

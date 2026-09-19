@@ -29,7 +29,7 @@ export function Cover() {
             {issue.masthead}
           </h1>
           <p className="mt-1 font-sans text-[10px] tracking-[0.55em] uppercase sm:text-xs">
-            The Aru Edition
+            {issue.title}
           </p>
         </div>
 
