@@ -119,16 +119,16 @@ export const issue = {
         image: "/source/contributor-editor.png",
       },
       {
+        role: "The Stylish One",
+        name: "Burari Baddie",
+        bio: "Confidence. Attitude. Effortless style.",
+        image: "/source/contributor-style.png",
+      },
+      {
         role: "The Rare One",
         name: "Chau-Singa-Laatu",
         bio: "Rare. Adorable. Delightfully unpredictable.",
         image: "/source/contributor-photographer.png",
-      },
-      {
-        role: "The Stylish One",
-        name: "Burari Baddie",
-        bio: "Confidence. Attitude. Effortless style.",
-        image: "/source/contributor-fashion.png",
       },
       {
         role: "The Original",
